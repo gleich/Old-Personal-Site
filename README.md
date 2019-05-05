@@ -1,2 +1,2 @@
-# matthewgleich.github.io
-🌎My personal website.
+# Matt-Gleich.github.io
+🌎 My personal website.

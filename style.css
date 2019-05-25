@@ -1,0 +1,8 @@
+table {
+   height: 40%;
+   left: 10%;
+   margin: 20px auto;
+   overflow-y: scroll;
+   position: static;
+   width: 80%;
+ }

@@ -30,3 +30,8 @@ th, td {
   text-align: left;
   width: 33.3333%;
 }
+
+.resize {
+    width: 250px;
+    height: auto;
+}

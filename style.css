@@ -1,3 +1,20 @@
+body
+{
+background: #202020;
+}
+
+h6 {
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+h4 {
+    color: #FFFFFF;
+}
+
 table {
   height: 40%;
   left: 10%;
@@ -5,6 +22,8 @@ table {
   overflow-y: scroll;
   position: static;
   width: 80%;
+  color: #202020;
+  box-shadow: 10px 5px 5px rgba(100, 100, 100, 0.5);
 }
 
 thead th {
@@ -18,9 +37,9 @@ thead th {
 }
 
 tr {
-  background: #f4f7f8;
-  border-bottom: 1px solid #FFF;
-  margin-bottom: 5px;
+  background: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  margin-bottom: 1px solid #FFFFFF;
 }
 
 th, td {
@@ -41,5 +60,13 @@ th, td {
   margin-left: auto;
   margin-right: auto;
   width: 300px;
+  height: auto;
+}
+
+.center_resize {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
   height: auto;
 }

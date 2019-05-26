@@ -70,3 +70,13 @@ th, td {
   width: 50px;
   height: auto;
 }
+
+@font-face {
+    font-family: Swera Regular;
+    src:  url(/fonts/Swera_Regular_Demo.otf);
+}
+
+.swera {
+    font-size: 70px;
+    font-family: Swera Regular
+}

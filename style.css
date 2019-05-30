@@ -63,12 +63,15 @@ th, td {
   height: auto;
 }
 
-.center_resize {
+.github-icon {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50px;
   height: auto;
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
 }
 
 @font-face {

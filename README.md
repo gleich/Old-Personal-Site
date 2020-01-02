@@ -1,6 +1,3 @@
-# Welcome to my website!
-🌎 My personal website. Check it out live at https://matt-gleich.github.io/
+# Matthew Gleich
 
-## Notice
-
-Keep in mind that we are currently under construction!
+This is my website built with Flutter Hummingbird

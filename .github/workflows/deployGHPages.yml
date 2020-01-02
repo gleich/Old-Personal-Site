@@ -26,6 +26,7 @@ jobs:
         git config core.autocrlf true
     - name: Git Push to Pages Branch
       run: |
+        git clean  -d  -fx .
         git checkout gh-pages
         git add .
         git commit -m "Build Latest"

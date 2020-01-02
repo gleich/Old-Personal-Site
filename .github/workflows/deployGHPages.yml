@@ -30,5 +30,4 @@ jobs:
         git checkout gh-pages
         git add .
         git commit -m "Build Latest"
-        git push "https://${{ secrets.ghToken }}@github.com/Matt-Gleich/Matt-Gleich.github.io"
-        echo "Pushed changes (if any) to the gh-pages branch"
+        git push "https://${{ secrets.ghToken }}@github.com/Matt-Gleich/Matt-Gleich.github.io" || true

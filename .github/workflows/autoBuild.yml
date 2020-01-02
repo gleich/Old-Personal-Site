@@ -1,4 +1,4 @@
-name: Deploy to Pages Branch
+name: Build and Push to Pages Branch
 on:
   push:
     branches:

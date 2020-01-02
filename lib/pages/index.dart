@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
       child: Text(
         "Hello! This site is currently under construction.",
         style: TextStyle(
-          fontSize: 30,
+          fontSize: 25,
           color: Colors.white
         ),
       ),

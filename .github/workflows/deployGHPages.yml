@@ -25,4 +25,9 @@ jobs:
         git config --global user.name "AUTO BUILD"
         git config core.autocrlf true
     - name: Git Push to Pages Branch
-      run: sh deploy.sh
+      run: |
+        git clean  -d  -fx .
+        git checkout gh-pages
+        git add .
+        git commit -m "Build Latest" || true
+        git push "https://${{ secrets.ghToken }}@github.com/Matt-Gleich/Matt-Gleich.github.io" || true
